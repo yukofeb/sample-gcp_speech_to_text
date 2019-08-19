@@ -1,4 +1,4 @@
-# サンプル音源
+# GCP Speech-to-Textを試した結果
 ## speechsample01
 ### 音源
 [スピード文字起こしサービス｜うちッパ](http://www.uchippa.com/service/)  
@@ -38,6 +38,9 @@ Confidence: 0.8540006279945374
 
 ### 結果
 * 完璧な精度（句読点が無いのは仕様）  
+  * USだと句読点をつけられるらしいが、日本語は未対応  
+  [句読点の挿入  \|  Cloud Speech\-to\-Text  \|  Google Cloud](https://cloud.google.com/speech-to-text/docs/automatic-punctuation?hl=ja)  
+  > 注: Speech-to-Text で音声文字変換の結果に句読点を挿入できるのは、en-US 言語のみです。  
 
 原文  
 ```
